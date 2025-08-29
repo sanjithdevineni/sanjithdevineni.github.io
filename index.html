@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanjith | Personal Site</title>
+  <meta name="description" content="Sanjith — CS grad student and aspiring software/ML engineer. Projects, experience, resume, and contact.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Sanjith | Personal Site">
+  <meta property="og:description" content="Projects, experience, resume, and contact.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sanjithdevineni.github.io/">
+  <meta property="og:image" content="https://sanjithdevineni.github.io/assets/img/og-image.png">
+  <meta name="theme-color" content="#0ea5e9">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sanjith",
+    "url": "https://sanjithdevineni.github.io/",
+    "sameAs": [
+      "https://github.com/sanjithdevineni",
+      "https://www.linkedin.com/in/sanjith-devineni/"
+    ],
+    "jobTitle": "CS Graduate Student",
+    "affiliation": "University of Florida",
+    "alumniOf": "UC San Diego"
+  }
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a href="/" class="brand">Sanjith</a>
+      <button id="themeToggle" aria-label="Toggle dark mode">🌓</button>
+      <ul class="menu">
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container grid">
+    <section class="hero card">
+      <img src="/assets/img/Sanjith Passport Photo_29_JUN_2019.jpeg" alt="Sanjith headshot" class="avatar">
+      <div>
+        <h1>Hi, I'm Sanjith 👋</h1>
+        <p>I’m a CS grad student at the University of Florida (’27), ex-intern at ChakraTech, and former D1 tennis athlete at UCSD. I work across ML, cloud, and full‑stack.</p>
+        <p class="chips">
+          <span>Python</span><span>FastAPI</span><span>AWS</span><span>Terraform</span>
+          <span>ML</span><span>React</span><span>SQL</span>
+        </p>
+        <p>
+          <a class="btn" href="/projects.html">See projects</a>
+          <a class="btn ghost" href="mailto:sanjithdevineni@gmail.com">Email me</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <div class="time">Summer 2024</div>
+          <div class="content">
+            <strong>ChakraTech — AI/ML Intern</strong>
+            <p>Built LangChain pipelines, SageMaker training workflows, Terraform infra, and REST APIs.</p>
+          </div>
+        </li>
+        <li>
+          <div class="time">2019–2025</div>
+          <div class="content">
+            <strong>UC San Diego — B.S. Computer Science, Minor in Finance</strong>
+            <p>Division I Men’s Tennis. Coursework: ML, Security, Systems, Finance.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Selected Projects</h2>
+      <div class="cards">
+        <article class="project">
+          <h3>Intelligent Document Processing (IDP) + Prompt Enhancement</h3>
+          <p>Workflow to refine user prompts and extract structured data from PDFs/images. Python, LangChain, FastAPI, AWS.</p>
+          <p><a href="https://github.com/sanjithdevineni/idp-prompt-enhancer" target="_blank" rel="noopener">GitHub →</a></p>
+        </article>
+        <article class="project">
+          <h3>Symbolic Harmonization</h3>
+          <p>RNN/Transformer models that generate chord sequences from melody tokens. PyTorch, MAESTRO/HookTheory datasets.</p>
+          <p><a href="https://github.com/sanjithdevineni/symbolic-harmonization" target="_blank" rel="noopener">GitHub →</a></p>
+        </article>
+        <article class="project">
+          <h3>Cloud Infra for FastAPI</h3>
+          <p>Terraform-managed AWS stack (Lambda, API Gateway, DynamoDB, S3) for a serverless app.</p>
+          <p><a href="https://github.com/sanjithdevineni/fastapi-aws" target="_blank" rel="noopener">GitHub →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Best way to reach me: <a href="mailto:sanjithdevineni@gmail.com">sanjithdevineni@gmail.com</a></p>
+      <form action="https://formspree.io/f/xandqoyp" method="POST" class="contact">
+        <input name="name" type="text" placeholder="Your name" required>
+        <input name="email" type="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Sanjith • <a href="https://github.com/sanjithdevineni" target="_blank" rel="noopener">GitHub</a> • <a href="https://www.linkedin.com/in/sanjith-devineni/" target="_blank" rel="noopener">LinkedIn</a></p>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
