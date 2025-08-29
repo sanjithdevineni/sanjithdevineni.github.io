@@ -4,7 +4,9 @@ This is the source code for my personal website, deployed on GitHub Pages at [sa
 
 ## About
 
-I'm a CS graduate student at the University of Florida, with experience in ML, cloud infrastructure, and full-stack development. This website showcases my projects, experience, and provides a way for visitors to get in touch.
+I'm a CS graduate student at the University of Florida, with experience in ML, cloud infrastructure, and some full-stack development (with AI assistance). This website showcases my projects, experience, and provides a way for visitors to get in touch.
+
+**Note**: This website was created with the assistance of AI tools to help with design, structure, and implementation.
 
 ## Features
 
@@ -21,6 +23,7 @@ I'm a CS graduate student at the University of Florida, with experience in ML, c
 - **Deployment**: GitHub Pages
 - **Contact Form**: Formspree integration
 - **No Build Tools**: Pure static site for fast loading
+- **Development**: AI-assisted development for design and implementation
 
 ## Structure
 
